@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18B3062A-7944-4775-9384-C0A25352B87C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{090011FA-C4F2-4D71-AF61-F5975F05FAE6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MeetupAspNetVNext", "src\MeetupAspNetVNext\MeetupAspNetVNext.xproj", "{BE06FD40-E4EE-454B-B541-B0166DC2E4F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE06FD40-E4EE-454B-B541-B0166DC2E4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE06FD40-E4EE-454B-B541-B0166DC2E4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE06FD40-E4EE-454B-B541-B0166DC2E4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE06FD40-E4EE-454B-B541-B0166DC2E4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE06FD40-E4EE-454B-B541-B0166DC2E4F8} = {18B3062A-7944-4775-9384-C0A25352B87C}
+	EndGlobalSection
+EndGlobal
